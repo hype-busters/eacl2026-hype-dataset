@@ -28,7 +28,7 @@ For each sentence, we include:
 ## Anonymization
 Our goal is to analyze language as a legitimate object of scientific study, not criticizing individual authors for using or not using promotional language in their writing. Therefore, we manually inspected all the sentences in our dataset and replaced any individual identifiers, such as names and affiliations, with generic placeholders, e.g.: 
 
-> As a result, Dr. A has an unparalleled view of laboratory based aging research at Institute A to enhance mentee research training and career development of junior investigators.
+> As a result, Dr. A has an unparalleled view of laboratory based aging research at Institute B to enhance mentee research training and career development of junior investigators.
 
 A total of 228 sentences were flagged with individual identifiers, representing around 18% of the dataset.
 
