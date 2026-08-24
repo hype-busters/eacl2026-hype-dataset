@@ -20,10 +20,11 @@ Proposed guidelines can be found [here](https://kansaineil.github.io/hype-annota
 For more statistics on the dataset, please refer to our paper.
 
 For each sentence, we include:
-- The potential hype adjective annotated.
-- The binary decision: 1 for hype, 0 for not hype.
-- Rationale decisions: A list containing rationales annotated. They can be any of the five described in our paper, i.e., hyperbolic, gratuitous, amplified, coordinated, and broader context)
-- Privacy tag: 1 if sample was anonymized, 0 if it was not.
+- jj: The potential hype adjective annotated.
+- jj_category: The adjective category (Novelty or Rigour). 
+- binary_decision: 1 for hype, 0 for not hype.
+- rationale: A list containing rationales annotated. They can be any of the five described in our paper, i.e., hyperbolic, gratuitous, amplified, coordinated, and broader context)
+- privacy: Yes if sample was anonymized, No if it was not.
 
 ## Anonymization
 Our goal is to analyze language as a legitimate object of scientific study, not criticizing individual authors for using or not using promotional language in their writing. Therefore, we manually inspected all the sentences in our dataset and replaced any individual identifiers, such as names and affiliations, with generic placeholders, e.g.: 
